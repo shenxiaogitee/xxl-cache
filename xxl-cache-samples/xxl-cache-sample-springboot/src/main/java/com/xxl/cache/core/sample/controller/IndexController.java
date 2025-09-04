@@ -32,7 +32,7 @@ public class IndexController {
 
     @RequestMapping("/set")
     @ResponseBody
-    public String set(@RequestParam String value) {
+    public String set(@RequestParam("value") String value) {
         String key = "user03";
 
         /**
